@@ -1,0 +1,2 @@
+# C.A.InstructionQuiz-Project
+This project was made as a class assignment for the course "Human-Computer interaction" at the University of West Attica former known as TEI of Athens. The project was an android application that helps elementary school students learn arithmetic operations . The purpose of this project was to show how we can create a proper interactive applicatiion for elementary students.
