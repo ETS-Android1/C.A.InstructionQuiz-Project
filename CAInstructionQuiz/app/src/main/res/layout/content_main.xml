@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.billy.cainstructionquiz.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/add_button"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="95dp"
+        android:id="@+id/addButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sub_button"
+        android:layout_marginEnd="46dp"
+        android:id="@+id/subButton"
+        android:layout_alignTop="@+id/addButton"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/div_button"
+        android:layout_alignTop="@+id/multButton"
+        android:layout_alignStart="@+id/subButton"
+        android:id="@+id/divButton"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/info_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/infoButton"
+        android:onClick="infoPressed"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/settings_button"
+        android:id="@+id/settingsButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/infoButton"
+        android:onClick="settingsPressed"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mult_button"
+        android:id="@+id/multButton"
+        android:layout_marginBottom="116dp"
+        android:layout_above="@+id/settingsButton"
+        android:layout_alignStart="@+id/addButton" />
+
+</RelativeLayout>

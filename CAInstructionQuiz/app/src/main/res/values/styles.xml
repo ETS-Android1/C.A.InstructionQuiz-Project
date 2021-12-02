@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Green" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+        <item name="android:navigationBarColor">@color/greenColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Red" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimary</item>
+        <item name="colorAccent">@color/redColorPrimary</item>
+        <item name="android:navigationBarColor">@color/redColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Blue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimary</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+        <item name="android:navigationBarColor">@color/blueColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Pink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/pinkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/pinkColorPrimary</item>
+        <item name="colorAccent">@color/pinkColorPrimary</item>
+        <item name="android:navigationBarColor">@color/pinkColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Purple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimary</item>
+        <item name="colorAccent">@color/purpleColorPrimary</item>
+        <item name="android:navigationBarColor">@color/purpleColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Green.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/greenColorPrimary</item>
+        <item name="android:statusBarColor">@color/greenColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Red.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/redColorPrimary</item>
+        <item name="android:statusBarColor">@color/redColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Blue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/blueColorPrimary</item>
+        <item name="android:statusBarColor">@color/blueColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Pink.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/pinkColorPrimary</item>
+        <item name="android:statusBarColor">@color/pinkColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Purple.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/purpleColorPrimary</item>
+        <item name="android:statusBarColor">@color/purpleColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme.Green">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+</resources>

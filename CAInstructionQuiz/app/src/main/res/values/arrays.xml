@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty_list">
+        <item>Εύκολο</item>
+        <item>Μέτριο</item>
+        <item>Δύσκολο</item>
+    </string-array>
+    <string-array name="color_list">
+        <item>Πράσινο</item>
+        <item>Κόκκινο</item>
+        <item>Μπλέ</item>
+        <item>Ρόζ</item>
+        <item>Μόβ</item>
+    </string-array>
+</resources>

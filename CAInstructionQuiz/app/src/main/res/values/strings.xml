@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Computer-Assisted Instruction</string>
+    <string name="settings">Settings</string>
+    <string name="about_credits">About-Credits</string>
+    <string name="checkButton_message">Ελεγχος</string>
+    <string name="creditsTitleTxtView_message">Πληροφορίες Developer</string>
+    <string name="aboutTitleTxtView_message">Στατιστικά Παιχνιδιού</string>
+    <string name="right_answers">Σωστές Απαντήσεις</string>
+    <string name="right_add_answers">Σωστές Απαντήσεις Πρόσθεσης</string>
+    <string name="right_sub_answers">Σωστές Απαντήσεις Αφαίρεσης</string>
+    <string name="right_mult_answers">Σωστές Απαντήσεις Πολλαπλασιασμού</string>
+    <string name="right_div_answers">Σωστές Απαντήσεις Διαίρεσης</string>
+    <string name="wrong_answers">Λάθος Απαντήσεις</string>
+    <string name="wrong_add_answers">Λάθος Απαντήσεις Πρόσθεσης</string>
+    <string name="wrong_sub_answers">Λάθος Απαντήσεις Αφαίρεσης</string>
+    <string name="wrong_mult_answers">Λάθος Απαντήσεις Πολλαπλασιασμού</string>
+    <string name="wrong_div_answers">Λάθος Απαντήσεις Διαίρεσης</string>
+    <string name="difficulty_choice">Επιλογή Δυσκολίας</string>
+    <string name="difficulty_choice_description">Αλλαγή των αριθμών που χρησιμοποιούνται για τις πράξεις</string>
+    <string name="color_choice">Επιλογή Χρώματος</string>
+    <string name="color_choice_description">Αλλαγή του φόντου της εφαρμογής</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/difficulty_list"
+        android:entryValues="@array/difficulty_list"
+        android:key="pref_difficulty"
+        android:persistent="true"
+        android:summary="@string/difficulty_choice_description"
+        android:title="@string/difficulty_choice"
+        android:defaultValue="Εύκολο" />
+    <ListPreference
+        android:entries="@array/color_list"
+        android:entryValues="@array/color_list"
+        android:key="pref_color"
+        android:persistent="true"
+        android:summary="@string/color_choice_description"
+        android:title="@string/color_choice"
+        android:defaultValue="Πράσινο" />
+</PreferenceScreen>

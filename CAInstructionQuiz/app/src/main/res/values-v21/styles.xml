@@ -1,0 +1,44 @@
+<resources>
+
+    <style name="AppTheme.Green.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/greenColorPrimaryDark</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/greenColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Red.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/redColorPrimary</item>
+        <item name="android:statusBarColor">@color/redColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Blue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/blueColorPrimary</item>
+        <item name="android:statusBarColor">@color/blueColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Pink.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/pinkColorPrimary</item>
+        <item name="android:statusBarColor">@color/pinkColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Purple.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/purpleColorPrimary</item>
+        <item name="android:statusBarColor">@color/purpleColorPrimaryDark</item>
+    </style>
+
+</resources>
